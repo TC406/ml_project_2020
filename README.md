@@ -24,3 +24,14 @@ For small files, it takes about 10 seconds per row for iteration, so for process
 ## Baseline Model Description:
 
 Inside the Baseline Models folder, we find 12 new folders, each one with the files used for the analysis of each token. Within each of these folders, we find the dataset, the code, and the images obtained from the visual analysis and forecasting. The code contains the processing of the dataset, a visual analysis of the time series, and the implementation of each of the three methods (ARIMA, SES_Tetha, and HWES) with validation and forecasting of 10 timesteps. The code is fully reproducible, so you just need to run all in order to obtain the results.
+
+
+
+## Obtaining price data
+
+1) Scraping sheet top500 tokens with eidoo
+2) Using ccxt tool to interact with all exchanges, 
+2.1) Registration on all exchanges (the list is in the laptop), downloading the keys api (you may have already downloaded my keys to the Github, if so, I will deactivate them all), search for trading pairs for an existing sheet of 500 tokens.
+3) Search for exchanges with data for two years 
+4) All that's left is binance 
+5) Discharge of 95 tokens from the binansa from 01.01.2018 at the hour level
